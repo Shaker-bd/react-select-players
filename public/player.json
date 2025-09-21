@@ -1,0 +1,98 @@
+[
+  {
+    "image": "https://i.ibb.co.com/VcTxS8Pf/Virat-Kohli-free-PNG-Image-indian-Sport-person-1653896772-2138149768.webp",
+    "name": "Virat Kohli",
+    "country": "India",
+    "rating": 950,
+    "type": "Batsman",
+    "price": 2200000
+  },
+  {
+    "image": "https://i.ibb.co.com/vCgxyz35/1154.png",
+    "name": "Ben Stokes",
+    "country": "England",
+    "rating": 940,
+    "type": "All-rounder",
+    "price": 2000000
+  },
+  {
+    "image": "https://i.ibb.co.com/yFVx6j1q/babar-azam-new-jersey-free-png-photo-1717411213-1755023614.webp",
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "rating": 930,
+    "type": "Batsman",
+    "price": 1850000
+  },
+  {
+    "image": "https://i.ibb.co.com/3mNZ7mzJ/images.jpg",
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "rating": 910,
+    "type": "Batsman",
+    "price": 1600000
+  },
+  {
+    "image": "https://i.ibb.co.com/XZGRf5Yr/1149-camedia.png",
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "rating": 900,
+    "type": "Bowler",
+    "price": 1550000
+  },
+  {
+    "image": "https://i.ibb.co.com/dwPmSmgp/images-1.jpg",
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "rating": 895,
+    "type": "Bowler",
+    "price": 1350000
+  },
+  {
+    "image": "https://i.ibb.co.com/VZPwHQ1/bolt.png",
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "rating": 885,
+    "type": "Bowler",
+    "price": 1300000
+  },
+  {
+    "image": "https://i.ibb.co.com/JLD58Wt/Ravu-kumar.webp",
+    "name": "Ravi Kumar",
+    "country": "India",
+    "rating": 880,
+    "type": "Bowler",
+    "price": 1200000
+  },
+  {
+    "image": "https://i.ibb.co.com/PG22dwWy/Rashid-khan.jpg",
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "rating": 870,
+    "type": "Bowler",
+    "price": 1100000
+  },
+  {
+    "image": "https://i.ibb.co.com/9mJjhVvS/Holder.jpg",
+    "name": "Jason Holder",
+    "country": "West Indies",
+    "rating": 860,
+    "type": "All-rounder",
+    "price": 1700000
+  },
+  {
+    "image": "https://i.ibb.co.com/7JPMvCxJ/De-kock.jpg",
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "rating": 855,
+    "type": "Batsman",
+    "price": 1450000
+  },
+  {
+    "image": "https://i.ibb.co.com/r2Q42zsb/Alex-carter.jpg",
+    "name": "Alex Carter",
+    "country": "Australia",
+    "rating": 925,
+    "type": "Batsman",
+    "price": 1500000
+  }
+]
