@@ -1,9 +1,14 @@
 import React from 'react';
 
-const SelectedPlayers = () => {
+const SelectedPlayers = ({purchasedPlayer}) => {
+    console.log(purchasedPlayer);
     return (
         <div className='max-w-[1200px] mx-auto'>
-            <h1>I am from Selected</h1>
+           {
+            purchasedPlayer.map(purPlr=>{<div>
+                <h1>purPlr.name</h1>
+            </div>})
+           }
         </div>
     );
 };
