@@ -18,17 +18,22 @@ function App() {
   const [toggle, setToggle] = useState(true);
   const [purchasedPlayer, setpurchasedPlayer] = useState([])
   
+  const removePlayer = (p) => {
+const filteredData = purchasedPlayer.filter(plyr => plyr.name !== p.name)
+setpurchasedPlayer(filteredData)
+setAvailableBalance (availableBalance + p.price)
+  }
   
   return (
     <div>
      <Navbar availableBalance={availableBalance}></Navbar>
-     <AvailableSelected setToggle={setToggle} toggle={toggle}></AvailableSelected>
+     <AvailableSelected setToggle={setToggle} toggle={toggle} purchasedPlayer={purchasedPlayer}></AvailableSelected>
      {
       toggle? <Suspense fallback={<h1>Data loading...</h1>}>
 
       <Available playersPromise= {playersPromise} setAvailableBalance={setAvailableBalance} availableBalance={availableBalance} purchasedPlayer={purchasedPlayer} setpurchasedPlayer={setpurchasedPlayer}></Available>
      </Suspense> : <Suspense fallback= {<h2>Data loading...</h2>}>
-      <SelectedPlayers purchasedPlayer={purchasedPlayer}></SelectedPlayers>
+      <SelectedPlayers purchasedPlayer={purchasedPlayer} removePlayer={removePlayer}></SelectedPlayers>
      </Suspense>
      }
      
