@@ -1,6 +1,7 @@
 
 import { Suspense, useState } from 'react'
 import './App.css'
+import { ToastContainer} from 'react-toastify';
 import Available from './Components/AvailablePlayers/Available'
 import Navbar from './Components/navbar/Navbar'
 import AvailableSelected from './Components/Available-Selected/AvailableSelected'
@@ -14,7 +15,7 @@ const loadData = async() =>{
 const playersPromise = loadData();
 
 function App() {
-  const [availableBalance, setAvailableBalance] = useState(6000000);
+  const [availableBalance, setAvailableBalance] = useState(60000000);
   const [toggle, setToggle] = useState(true);
   const [purchasedPlayer, setpurchasedPlayer] = useState([])
   
@@ -37,6 +38,7 @@ setAvailableBalance (availableBalance + p.price)
      </Suspense>
      }
      
+     <ToastContainer />
      
     </div>
   )
